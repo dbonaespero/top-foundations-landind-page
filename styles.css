@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    font-family: roboto, Helvetica, sans-serif;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 /* make some flex */
@@ -29,7 +29,7 @@ h1 {
     color: white;
 }
 
-li,
+a,
 .first-section-mid {
     color: #E5E7EB;
 }
@@ -42,4 +42,32 @@ li,
 button,
 .fourth-section {
     background-color: dodgerblue;
+}
+
+/* header mastering */
+h3 {
+    font-size: 24px;
+}
+
+.header-list {
+    gap: 18px;
+    align-items: center;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 0 72px;
 }
