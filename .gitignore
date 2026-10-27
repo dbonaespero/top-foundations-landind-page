@@ -1,0 +1,22 @@
+planning.md
+
+# emacs' shit
+\#*\#
+
+.\#*
+
+*.orig
+*.bak
+
+auto-save-list/
+
+.flycheck*
+.flymake*
+
+.emacs.desktop*
+.desktop
+*.elc
+
+.projectile
+.dir-locals-2.el
+
