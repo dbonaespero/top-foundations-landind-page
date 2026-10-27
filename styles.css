@@ -11,3 +11,34 @@
 {
     display: flex;
 }
+
+/* colors and background-colors */
+.header,
+.first-section,
+.footer {
+    background-color: #1F2937;
+}
+
+button,
+.header,
+.footer,
+.fourth-section,
+.image-placeholder,
+h1 {
+    color: white;
+}
+
+li,
+.first-section-mid {
+    color: #E5E7EB;
+}
+
+.image-placeholder,
+.third-section {
+    background-color: grey;
+}
+
+button,
+.fourth-section {
+    background-color: dodgerblue;
+}
