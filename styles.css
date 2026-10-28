@@ -8,6 +8,7 @@
 .header-list,
 .first-section,
 .random-items,
+.item,
 .fourth-section,
 .image-placeholder
 {
@@ -109,4 +110,32 @@ button {
     padding: 6px 24px;
     border-radius: 6px;
     border: none;
+}
+
+/* second-section mastering */
+.second-section h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.random-items {
+    justify-content: center;
+    gap: 24px;
+}
+
+.item {
+    width: 120px;
+    margin-bottom: 48px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square {
+    border: 3px solid #3882F6;
+    border-radius: 12px;
+    width: 120px;
+    height: 120px;
+    margin: 6px;
 }
