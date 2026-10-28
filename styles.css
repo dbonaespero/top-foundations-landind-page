@@ -15,7 +15,8 @@ body {
 .item,
 .fourth-section,
 .image-placeholder,
-.third-section
+.third-section,
+.footer ul
 {
     display: flex;
 }
@@ -185,4 +186,13 @@ button {
 
 .fourth-section button {
     border: 3px solid white;
+}
+
+/* footer mastering */
+.footer ul {
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 0;
+    padding: 24px;
 }
