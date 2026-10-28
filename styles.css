@@ -8,7 +8,8 @@
 .header-list,
 .first-section,
 .random-items,
-.fourth-section
+.fourth-section,
+.image-placeholder
 {
     display: flex;
 }
@@ -30,7 +31,7 @@ h1 {
 }
 
 a,
-.first-section-mid {
+.first-section-left-mid {
     color: #E5E7EB;
 }
 
@@ -70,4 +71,42 @@ a {
     align-items: center;
     margin: 0;
     padding: 0 72px;
+}
+
+/* first-section mastering */
+.first-section-left h1 {
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.first-section-left-mid {
+    font-size: 18px;
+}
+
+.first-section {
+    padding: 36px 96px;
+    gap: 24px;
+}
+
+.image-placeholder {
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+}
+
+.first-section-left,
+.image-placeholder {
+    flex: 1;
+}
+
+.first-section-left button {
+    margin-top: 12px;
+}
+
+/* first-section && fourth-section */
+button {
+    padding: 6px 24px;
+    border-radius: 6px;
+    border: none;
 }
