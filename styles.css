@@ -10,7 +10,8 @@
 .random-items,
 .item,
 .fourth-section,
-.image-placeholder
+.image-placeholder,
+.third-section
 {
     display: flex;
 }
@@ -138,4 +139,26 @@ button {
     width: 120px;
     height: 120px;
     margin: 6px;
+}
+
+/* third-section mastering */
+.third-section {
+    font-size: 36px;
+    flex-direction: column;
+    gap: 3px;
+    padding-bottom: 72px;
+    padding-left: 144px;
+    padding-right: 120px;
+    padding-top: 120px;
+    margin-top: 36px;
+}
+
+.quote {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 500;
+    align-self: flex-end;
 }
