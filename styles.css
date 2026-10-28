@@ -162,3 +162,21 @@ button {
     font-weight: 500;
     align-self: flex-end;
 }
+
+/* mastering fourth-section */
+.fourth-section {
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 96px;
+    margin: 96px 144px;
+    border-radius: 6px;
+}
+
+.fourth-section h4 {
+    font-size: 24px;
+    margin: 0 0 3px;
+}
+
+.fourth-section button {
+    border: 3px solid white;
+}
